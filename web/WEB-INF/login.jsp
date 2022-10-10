@@ -1,7 +1,7 @@
 <%-- 
     Document   : login
     Created on : Oct 9, 2022, 8:51:35 PM
-    Author     : ohiow
+    Author     : William Lau
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,9 +9,17 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Login Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Login Page</h1>
+        <form action="login" method="post">
+        Username:<input type="text" name="username" value="${username}"><br>
+        Password:<input type="text" name="password" value="${password}"><br>
+        <input type="submit" value="Log in">
+        </form>
+
+        <h2>${message}</h2>
+        
     </body>
 </html>

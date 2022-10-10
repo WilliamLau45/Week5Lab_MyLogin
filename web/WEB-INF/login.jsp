@@ -19,7 +19,7 @@
         <input type="submit" value="Log in">
         </form>
 
-        <h2>${message}</h2>
+        <p>${message}</p>
         
     </body>
 </html>
